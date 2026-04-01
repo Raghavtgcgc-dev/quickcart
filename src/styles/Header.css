@@ -1,34 +1,51 @@
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #6c4cf1;
   color: white;
-  padding: 30px 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
 }
 
 .header-container {
   max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+  margin: auto;
 }
 
-.header-title {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  font-weight: 700;
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.header-subtitle {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  font-weight: 300;
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-@media (max-width: 768px) {
-  .header-title {
-    font-size: 2rem;
-  }
-  
-  .header-subtitle {
-    font-size: 1rem;
-  }
+.cart-btn {
+  background: white;
+  color: #6c4cf1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.search {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
